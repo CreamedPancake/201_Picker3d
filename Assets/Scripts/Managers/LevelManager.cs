@@ -11,7 +11,7 @@ namespace Managers
         #endregion
         #region Serialized Variables
         [SerializeField] private int totalLevelCount, levelID;
-        [SerializeField] private Transform levelHolder
+        [SerializeField] private Transform levelHolder;
         #endregion
         #region Private Variables
         private CD_Level _levelData;
